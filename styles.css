@@ -1,0 +1,69 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header { 
+    background-color: #440080;
+    height: 100px;
+} 
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+
+}   
+
+
+
+.menu-container {
+    color: #fff;
+    background-color: #c56e05;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.menu {
+    padding: 10px;  
+    width: 1200px; 
+    display: flex; 
+    justify-content: space-around;
+    /* flex-direction: row-reverse;  */
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: rgb(15, 97, 2);
+    flex: 1 200px;
+
+}
+
+.hobbitimg {
+    /* border: 2px dashed orange; */
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
