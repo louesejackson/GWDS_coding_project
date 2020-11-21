@@ -43,27 +43,27 @@ h1 {
 
 h2 {
     text-align: center;
-    color: white;
+    color: #df08eb;
 }
 
 section {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 article {
-    padding: 10px;
-    margin: 10px;
-    background: rgb(15, 97, 2);
-    flex: 1 200px;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* background: rgb(15, 97, 2); */
+    /* flex: 1 200px; */
 
 }
 
 .hobbitimg {
     /* border: 2px dashed orange; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 img {
-    width: 300px;
+    /* width: 300px; */
 }
