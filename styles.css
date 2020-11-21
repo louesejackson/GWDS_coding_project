@@ -48,15 +48,21 @@ h2 {
 
 section {
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 article {
     padding: 10px;
     margin: 10px;
     background: #0f6102;
-    
-    }
+    flex: 1;
+
+  }
+
+
+article:nth-of-type(3) {
+    flex: 2;
+}
 
 .hobbitimg {
     text-align: center;
@@ -64,4 +70,29 @@ article {
 
 img {
     width: 300px;
+}
+
+a {
+    color: #6200ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+blockquote {
+    font-family: cursive;
+    font-weight: 900;
+    font-size: large;
+}
+
+footer {
+    margin: 0;
+    padding: 20px;
+    height: 80px; 
+    text-align: center;
+    color: #999999;  
 }
