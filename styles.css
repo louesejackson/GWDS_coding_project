@@ -99,3 +99,8 @@ footer {
     text-align: center;
     color: #999999;  
 }
+
+/* Image without alt attribute? */
+img:not([alt]) {
+    outline: 2px dashed hotpink;
+}
